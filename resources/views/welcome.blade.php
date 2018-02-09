@@ -11,34 +11,31 @@
     <title>siconsiga</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><h1>siconsiga</h1></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Entrar</a>
-              </li>
-          </ul>
-        </nav>
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col">
-              <h2>frontend webservice integración SIS & LMS</h2>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h1>siconsiga</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Entrar</a>
+            </li>
+        </ul>
+      </nav>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <h2 align="center">frontend webservice integración SIS & LMS</h2>
           </div>
-          
-          <div class="row">
-            <div class="col">
-            </div>
-            <div class="col">
-                <img src="/img/siconsiga.svg" alt="Kiwi standing on oval">
-            </div>
-            <div class="col">
-            </div>
-          </div>  
         </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-8">
+              <img src="/img/siconsiga.svg" class="rounded mx-auto d-block" alt="Kiwi standing on oval">
+          </div>
+        </div>  
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
