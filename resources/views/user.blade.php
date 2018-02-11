@@ -22,18 +22,23 @@
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>nombre</td>
-            <td>{{ $name }}</td>
+            <td>username</td>
+            <td>{{ $username }}</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>apellido</td>
-            <td>Thornton</td>
+            <td>nombre</td>
+            <td>{{ $firstname }}</td>
           </tr>
           <tr>
             <th scope="row">3</th>
+            <td>apellido</td>
+            <td>{{ $lastname }}</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
             <td>email</td>
-            <td>otto.thornton@uao.edu.co</td>
+            <td>{{ $email }}</td>
           </tr>
         </tbody>
       </table>
