@@ -23,7 +23,7 @@
           <tr>
             <th scope="row">1</th>
             <td>nombre</td>
-            <td>Otto</td>
+            <td>{{ $name }}</td>
           </tr>
           <tr>
             <th scope="row">2</th>
