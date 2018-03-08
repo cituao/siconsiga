@@ -8,11 +8,12 @@ use GuzzleHttp\Client;
 class UsersController extends Controller
 {
     public function getUser() {
-        $client = new Client(['base_uri' => 'endpoint']);
-        $token = getenv('TOKEN_MOODLEROOMS');
+        $client = new Client(['base_uri' => 'https://uao-sandbox.mrooms.net']);
+        // $token = getenv('TOKEN_MOODLEROOMS');
+        $token = 'INGRESETOKEN';
     
-        $parameters = array('token'=>'token', 'method'=>'get_user', 'value'=>'carestrepo', 'field'=>'username');
-        $response = $client->request('POST', 'endpoint', [
+        $parameters = array('token'=>$token, 'method'=>'get_user', 'value'=>'carestrepo', 'field'=>'username');
+        $response = $client->request('POST', 'blocks/conduit/webservices/rest/user.php', [
             'query' => $parameters
         ]);
     
