@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema; //Import Schema
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // this code solved case https://github.com/CachetHQ/Cachet/issues/2588
+        Schema::defaultStringLength(191); //Solved by increasing StringLength
     }
 
     /**
